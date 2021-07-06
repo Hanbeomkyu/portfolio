@@ -103,8 +103,8 @@ header .slide_nav .slide_menu li a{font-size: 50px; color: #fff;}
 .works_inner .work-list .work_info .type{display: inline-block; padding: 3px 5px; font-size: 13px; border-radius: 3px; background-color: #fff; color: #999; }
 .works_inner .work-list .work_info h3{font-size: 30px; font-weight: bold; padding-bottom: 20px;}
 .works_inner .work-list .work_info p{font-size: 16px; padding-bottom: 20px; letter-spacing:.5px;}
-.works_inner .work-list .work_info button{font-size: 18px; padding:8px 20px; border-radius: 20px; cursor:pointer; font-weight: 600; transition: all .3s;}
-.works_inner .work-list .work_info button:hover{color:#fff; background: #191919;}
+.works_inner .work-list .work_info .button{font-size: 18px; padding:8px 20px; border-radius: 20px; cursor:pointer; font-weight: 600; transition: all .3s; background: #efefef;}
+.works_inner .work-list .work_info .button:hover{color:#fff; background: #191919;}
 
 /* ABOUT */
 #about_title,#about{background-color: #292929;}
