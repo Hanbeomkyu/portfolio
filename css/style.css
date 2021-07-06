@@ -90,9 +90,11 @@ header .slide_nav .slide_menu li a{font-size: 50px; color: #fff;}
 .works_inner{padding-top: 80px;}
 .works_inner>.container{columns: 2; column-gap: 200px;}
 .works_inner .work-list{width:100%; display: flex;margin-bottom: 50px; position: relative; align-items:center; justify-content: space-around; flex-direction: column;}
-.works_inner .work-list>.img>.w-detail{color: #fff; display:block; width:200px; height:200px; margin:0 auto; font-size: 14px;}
-.works_inner .work-list>.img>.w-detail>span{display:block; text-align: center;}
-.works_inner .work-list>.img>.w-detail>span>b{font-size: 16px;}
+.works_inner .work-list>.img>.w-detail{color: #fff; width:100%; height:100%; font-size: 18px; background: rgba(0,0,0,.7); transition: all .4s; opacity: 0;}
+.works_inner .work-list>.img:hover>.w-detail{opacity: 1;}
+.works_inner .work-list>.img>.w-detail>span{display:block; text-align: left; padding-left:100px; padding-top:5px;}
+.works_inner .work-list>.img>.w-detail>.first{padding-top:150px}
+.works_inner .work-list>.img>.w-detail>span>b{font-size: 20px;}
 .works_inner .list1 .img{background: url(../img/overview-keyvisual-w.jpg) no-repeat center center/cover; height:500px; display:block; width:500px;}
 .works_inner .list2 .img{background: url(../img/Equestrian_Sports_Wall_Mural_Wallpaper_a_1400x.jpg) no-repeat center center/cover; height:500px; display:block; width:500px;}
 .works_inner .list3 .img{background:rgb(71, 74, 75) url(../img/mcdonald.jpg) no-repeat center/cover; height:500px; display:block; width:500px;}
