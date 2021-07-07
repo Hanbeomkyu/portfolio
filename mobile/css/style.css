@@ -7,7 +7,7 @@
 
 /* 공통속성 */
 body{background-color: #191919; box-sizing: border-box; font-family: 'Montserrat',sans-serif; color:#fff;}
-.container{margin:0 auto; width:370px; position: relative; box-sizing: border-box;}
+.container{margin:0 auto; width:400px; position: relative; box-sizing: border-box;}
 img{width:100%;}
 
 /* HEADER */
