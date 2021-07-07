@@ -6,7 +6,7 @@
 /*FONTS:END*/
 
 /* 공통속성 */
-body{background-color: #191919; box-sizing: border-box; font-family: 'Montserrat',sans-serif; color:#fff; overflow-y:scroll ;}
+body{background-color: #191919; box-sizing: border-box; font-family: 'Montserrat',sans-serif; color:#fff; overflow-y:scroll;}
 .container{margin:0 auto; width:370px; position: relative; box-sizing: border-box;}
 img{width:100%;}
 
