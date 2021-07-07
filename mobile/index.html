@@ -19,6 +19,15 @@
     <script src="https://kit.fontawesome.com/24ba2cef07.js" crossorigin="anonymous"></script>
     <script src="js/typed.js"></script>
     <script src="js/script.js" defer></script>
+    <!--[if (lte IE 12)]>
+		<script src='js/script1.js'></script>
+	<![endif]-->
+    <script>
+        jQuery(document).ready(function(){
+            //console.log(jQuery.browser.mobile);
+            if(jQuery.browser.mobile==true){location.href="./mobile/"}
+        });
+    </script>
 </head>
 <body>
     <div class="wrap">
@@ -26,13 +35,6 @@
             <div class="h_inner">
                 <div class="container">
                     <h1><a href="index.html">BEOMKYU</a></h1>
-                    <nav>
-                        <ul class="main_menu">
-                            <li><a href="#works_title">Works</a></li>
-                            <li><a href="#about_title">About</a></li>
-                            <li><a href="#contact_title">Contact</a></li>
-                        </ul>
-                    </nav>
                     <div class="navBtn">
                         <button type="button">
                             <span class="bar bar1"></span>
@@ -63,15 +65,16 @@
         <main>
             <section id="visual">
                 <div class="visual_title">
-                    <h2 class="typing-txt">web publisher hanbeomkyu</h2>
+                    <h2 class="typing-txt">web publisher hanbeomkyu </h2>
+                    <span class="inText"></span>
                     <h2 class="typing"></h2>
                 </div>
                 <button class="scroll_down_btn">
-                    <span class="mouse"></span>
-                    <span>scroll</span>
+                    <span class="mouse"><i class="far fa-hand-point-down"></i></span>
+                    <span>Slide Down</span>
                 </button>
             </section>
-            <section id="works_title"class="title">
+            <section id="works_title" class="title">
                 <div class="title_inner">
                     <div class="container">
                         <div class="tit_wrap">
@@ -110,8 +113,8 @@
                                     <div class="slide_title slide_title3">
                                         <div class="img"></div>
                                         <span class="type">Mobile</span>
-                                        <h3>JOB KOREA</h3>
-                                        <p>잡코리아 모바일 메인페이지</p>
+                                        <h3>Mcdonald</h3>
+                                        <p>맥도날드 모바일 페이지</p>
                                     </div>
                                 </div>
                             </div>
@@ -129,44 +132,84 @@
                     </div>
                 </div>
             </section>
+            <section id="works_title" class="title">
+                <div class="title_inner">
+                    <div class="container">
+                        <div class="tit_wrap">
+                            <h2>Works's Detail</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section id="works">
                 <div class="works_inner">
                     <div class="container">
                         <article class="work-list list1">
-                            <a href="#" class="img"></a>
+                            <a href="https://hanbeomkyu.github.io/hyundaicar/" class="img">
+                                <div class="w-detail">
+                                    <span class="first"><b>구분</b>PC Web</span>
+                                    <span><b>publishing</b>100%</span>
+                                    <span><b>tools</b>HTML , CSS , jquery , API</span>
+                                    <span><b>제작기간</b>1달</span>
+                                    <span><b>page</b>main,sub,login page</span>
+                                </div>
+                            </a>
                             <div class="work_info">
                                 <span class="type">PC Web</span>
                                 <h3>Hyundai Page</h3>
                                 <p>HTML,CSS,jQuery를 사용한 클론코딩페이지</p>
-                                <button type="button">View</button>
+                                <a href="https://hanbeomkyu.github.io/hyundaicar/" class="button" target="blank">View</a>
                             </div>
                         </article>
                         <article class="work-list list2">
-                            <a href="#" class="img"></a>
+                            <a href="https://hanbeomkyu.github.io/responsive/" class="img">
+                                <div class="w-detail">
+                                    <span class="first"><b>구분</b>Responsive</span>
+                                    <span><b>publishing</b>100%</span>
+                                    <span><b>tools</b>HTML , CSS , jquery , API, photoshop</span>
+                                    <span><b>제작기간</b>3주</span>
+                                    <span><b>page</b> main</spa>
+                                </div>
+                            </a>
                             <div class="work_info">
                                 <span class="type">Responsive</span>
                                 <h3>Sonofelice</h3>
                                 <p>메인페이지 반응형 리디자인</p>
-                                <button type="button">View</button>
+                                <a href="https://hanbeomkyu.github.io/responsive/" class="button" target="blank">View</a>
                             </div>
                         </article>
                         <article class="work-list list3">
-                            <a href="#" class="img"></a>
+                            <a href="http://beomk.dothome.co.kr/mobile/index.html" class="img">
+                                <div class="w-detail">
+                                    <span class="first"><b>구분</b>Mobile</span>
+                                    <span><b>publishing</b>100%</span>
+                                    <span><b>tools</b>HTML , SCSS , jquery , php</span>
+                                    <span><b>제작기간</b>2주</span>
+                                    <span><b>page</b>main,sub,login page, join-page</span>
+                                </div>
+                            </a>
                             <div class="work_info">
                                 <span class="type">Mobile</span>
-                                <h3>Jobkorea</h3>
-                                <p>3x 이미지</p>
-                                <button type="button">View</button>
+                                <h3>McDonald</h3>
+                                <p>맥도날드 모바일 페이지</p>
+                                <a href="http://beomk.dothome.co.kr/mobile/index.html" class="button" target="blank">View</a>
                             </div>
                         </article>
                         <article class="work-list list4">
                             <a href="index.html" class="img">
+                                <div class="w-detail">
+                                    <span class="first"><b>구분</b>Adaptive</span>
+                                    <span><b>publishing</b>100%</span>
+                                    <span><b>tools</b>HTML , CSS , jquery, JAVASCRIPT </span>
+                                    <span><b>제작기간</b>2주</span>
+                                    <span><b>page</b>main page</span>
+                                </div>
                             </a>
                             <div class="work_info">
                                 <span class="type">Adaptive</span>
                                 <h3>Portfolio</h3>
                                 <p>포트폴리오 홈페이지</p>
-                                <button type="button">View</button>
+                                <a href="#" class="button">View</a>
                             </div>
                         </article>
                     </div>
@@ -186,10 +229,10 @@
                 <div class="about_inner">
                     <div class="container">
                        <div class="flexBox">
-                            <div class="left">
+                            <div class="top">
                                 <div class="imgBox"></div>
                             </div>
-                            <div class="right">
+                            <div class="bottom">
                                 <dl>
                                     <dt>Name</dt>
                                     <dd>한범규</dd>
@@ -207,6 +250,9 @@
                                     <li class="javascript"><span>javascript</span></li>
                                     <li class="jquery"><span>jQuery</span></li>
                                     <li class="sass"><span>SASS</span></li>
+                                    <li class="git"><span>git</span></li>
+                                    <li class="php"><span>PHP</span></li>
+                                    <li class="Bootstrap"><span>Bootstrap</span></li>
                                 </ul>
                                 <p class="sub_title">Used Tools</p>
                                 <ul>
@@ -258,11 +304,16 @@
                         <a href="index.html" class="footer_logo">beomkyu</a>
                     </div>
                    <div class="footer_bottom">
-                       <ul>
+                       <ul class="foot_menu">
                            <li><a href="#works_title">works</a></li>
                            <li><a href="#about_title">about</a></li>
                            <li><a href="#contact_title">contact</a></li>
-                       </ul> 
+                       </ul>
+                       <ul class="sns">
+                            <li><a href="https://github.com/Hanbeomkyu" class="github" target="_blank"></a></li>
+                            <li><a href="https://www.rocketpunch.com/@20e01cfc" class="roket" target="_blank"></a></li>
+                            <li><a href="https://www.instagram.com/h.beom_k/" class="insta" target="_blank"></a></li>
+                        </ul> 
                        <p>Copyright &copy;2021 All rights reserved.</p>
                     </div>
                 </div>
