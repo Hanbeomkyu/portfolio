@@ -1,3 +1,5 @@
+alert("이 사이트는 Chrome, Microsoft EDGE에 최적화 되어있습니다.")
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
   spaceBetween: 0,
