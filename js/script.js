@@ -1,5 +1,3 @@
-alert("이 사이트는 Chrome, Microsoft EDGE에 최적화 되어있습니다.")
-
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
   spaceBetween: 0,
@@ -37,7 +35,7 @@ $(window).on('load scroll resize', function(){
 });
 
 $('.typing').typed({
-  strings: ['WEB PUBLISHER', 'HANBEOMKYU','PORTFOLIO'],
+  strings: ['WEB PUBLISHER','FRONT-END DEVELOPER', 'HANBEOMKYU','PORTFOLIO'],
   typeSpeed: 50,
   backSpeed: 50,
   smartBackspace: true, // this is a default

@@ -45,7 +45,7 @@ header .slide_nav .slide_menu li a{font-size: 50px; color: #fff;}
 /* info */
 #visual{width:100%; height:100vh; background: #191919; position: relative;}
 #visual .visual_title{width:100%;position: absolute; top:50%; left:0; transform: translateY(-50%); text-align: center;}
-#visual .visual_title h2.typing-txt{ display:none;}
+#visual .visual_title h2.typing-txt{display:none;}
 #visual .visual_title .typing{display: inline-block; animation-name: cursor; animation-duration: 0.3s; animation-iteration-count: infinite; font-size: 60px; text-transform: uppercase;} 
 @keyframes cursor{ 
     0%{border-right: 1px solid #fff} 
