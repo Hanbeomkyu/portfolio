@@ -86,6 +86,7 @@ header .slide_nav .slide_menu li a{font-size: 50px; color: #fff;}
 .swiper-slide .slide_tit .slide_title3 .img{background: url(../img/mcdonald.jpg) no-repeat right/cover; height:500px; display:block; width:500px;}
 .swiper-slide .slide_tit .slide_title4 .img{background: url(../img/logo.png) no-repeat center/50%; height:500px; display:block; display:block; width:500px;}
 .swiper-slide .slide_tit .slide_title5 .img{background: url(../img/momentum.png) no-repeat center/cover; height:500px; display:block; display:block; width:500px;}
+.swiper-slide .slide_tit .slide_title6 .img{background: url(../img/movieapp.jpg) no-repeat center/cover; height:500px; display:block; display:block; width:500px;}
 
 /* works */
 .works_inner{padding-top: 80px;}
@@ -104,7 +105,7 @@ header .slide_nav .slide_menu li a{font-size: 50px; color: #fff;}
 .works_inner .list3 .img{background:rgb(71, 74, 75) url(../img/mcdonald.jpg) no-repeat center/cover; height:500px; display:block; width:500px;}
 .works_inner .list4 .img{background:rgb(71, 74, 75) url(../img/logo.png) no-repeat center/70%; height:500px; display:block; width:500px;}
 .works_inner .list5 .img{background:rgb(71, 74, 75) url(../img/momentum.png) no-repeat center/cover; height:500px; display:block; width:500px;}
-.works_inner .list6 .img{background:rgb(71, 74, 75) url(../img/comming_soon.jpg) no-repeat center/cover; height:500px; display:block; width:500px;}
+.works_inner .list6 .img{background:rgb(71, 74, 75) url(../img/movieapp.jpg) no-repeat center/cover; height:500px; display:block; width:500px;}
 .works_inner .work-list .work_info{display:flex; margin-top: 20px; width:500px; padding-left: 50px; flex-direction: column; align-items: flex-start;}
 .works_inner .work-list .work_info .type{display: inline-block; padding: 3px 5px; font-size: 13px; border-radius: 3px; background-color: #393939; color: #fff;}
 .works_inner .work-list .work_info h3{font-size: 30px; font-weight: bold; padding-bottom: 20px;}
@@ -132,6 +133,7 @@ header .slide_nav .slide_menu li a{font-size: 50px; color: #fff;}
 .about_inner .right ul .git{background-image:url(../img/logo_git.png); margin-top:10px;}
 .about_inner .right ul .php{background-image:url(../img/logo_php.png); margin-top:10px;}
 .about_inner .right ul .Bootstrap{background-image:url(../img/logo_bootstrap.png); margin-top:10px;}
+.about_inner .right ul .React{background-image:url(../img/logo_react.png); margin-top:10px;}
 .about_inner .right ul .vscode{background-image:url(../img/logo_vscode.png);}
 .about_inner .right ul .photoshop{background-image:url(../img/logo_photoshop.png);}
 .about_inner .right ul .illustrator{background-image:url(../img/logo_illustrator.png);}
